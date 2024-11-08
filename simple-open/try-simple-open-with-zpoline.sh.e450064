@@ -1,0 +1,35 @@
+
+%NQSV(INFO): ------- Output from job:0000 -------
+Loading openmpi/4.1.6/gcc11.4.0-cuda12.3.2
+  Loading requirement: cuda/12.3.2 ucx/1.15.0/cuda12.3.2
+bash: 行 1: ofi_rxm://10.110.0.44:33306: そのようなファイルやディレクトリはありません
+bash: 行 1: ofi_rxm://10.110.0.44:33306: そのようなファイルやディレクトリはありません
+no server info file
+Failed to open /chfs/piyo.txt: Operation not permitted
+
+============================================================
+Request ID:             450064.nqsv
+Request Name:           try-simple-open-with-zpoline.sh
+Queue:                  gpu@nqsv
+Number of Jobs:         4
+User Name:              miyauchi
+Group Name:             NBB
+Created Request Time:   Fri Nov  8 10:36:44 2024
+Started Request Time:   Fri Nov  8 10:42:22 2024
+Ended Request Time:     Fri Nov  8 10:42:35 2024
+Resources Information:
+  Elapse:               17S
+  Remaining Elapse:     3583S
+============================================================
+
+%NQSV(INFO): ------- Output from job:0001 -------
+Loading openmpi/4.1.6/gcc11.4.0-cuda12.3.2
+  Loading requirement: cuda/12.3.2 ucx/1.15.0/cuda12.3.2
+
+%NQSV(INFO): ------- Output from job:0002 -------
+Loading openmpi/4.1.6/gcc11.4.0-cuda12.3.2
+  Loading requirement: cuda/12.3.2 ucx/1.15.0/cuda12.3.2
+
+%NQSV(INFO): ------- Output from job:0003 -------
+Loading openmpi/4.1.6/gcc11.4.0-cuda12.3.2
+  Loading requirement: cuda/12.3.2 ucx/1.15.0/cuda12.3.2

@@ -1,0 +1,3 @@
+open.cをgccコマンドでコンパイルして実行  
+/chfs/piyo.txtをopenするだけだが、事前にファイルを作成していないのでエラーは出るはず　　
+`Failed to open /chfs/piyo.txt: Operation not permitted`のエラーが正常なものなのかわからない…

@@ -1,0 +1,14 @@
+
+%NQSV(INFO): ------- Output from job:0000 -------
+bnode044
+miyauchi    4438       1  4 10:42 ?        00:00:00 chfsd -p verbs -s 1649267441664 -H 0 -T 46 -c /dev/dax0.0 -l /work/0/NBB/miyauchi/try-chfs/investigation-fail-ior-assert/cz-separate/cdir-4-27668/log/bnode044-default-default -S /tmp/server-info-file-miyauchi
+bnode045
+bnode046
+ofi+verbs;ofi_rxm://10.110.0.44:33306 ofi+verbs;ofi_rxm://10.110.0.44: C763818F
+vm.mmap_min_addr = 0
+
+%NQSV(INFO): ------- Output from job:0001 -------
+
+%NQSV(INFO): ------- Output from job:0002 -------
+
+%NQSV(INFO): ------- Output from job:0003 -------
