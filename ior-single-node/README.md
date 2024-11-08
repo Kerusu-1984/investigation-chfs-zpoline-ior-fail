@@ -1,0 +1,1 @@
+sc-poster-scripts/chfs-zpoline.shのIORPPNの部分を1から2に変えただけ。

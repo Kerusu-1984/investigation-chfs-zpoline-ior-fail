@@ -1,0 +1,57 @@
+Loading openmpi/4.1.6/gcc11.4.0-cuda12.3.2
+  Loading requirement: cuda/12.3.2 ucx/1.15.0/cuda12.3.2
+[bnode002:231823] Warning: could not find environment variable "CHFS_BUF_SIZE"
+[bnode002:231887] Warning: could not find environment variable "CHFS_BUF_SIZE"
+[bnode002:231887] MCW rank 0 bound to socket 0[core 0[hwt 0]]: [B/././././././././././././././././././././././././././././././././././././././././././././././.]
+[bnode002:231887] MCW rank 1 bound to socket 0[core 1[hwt 0]]: [./B/./././././././././././././././././././././././././././././././././././././././././././././.]
+POSIX couldn't call statvfs: No such file or directory
+ior: aiori-POSIX.c:818: POSIX_Xfer: Assertion `rc >= 0' failed.
+ior: aiori-POSIX.c:818: POSIX_Xfer: Assertion `rc >= 0' failed.
+[bnode002:231894] *** Process received signal ***
+[bnode002:231894] Signal: Aborted (6)
+[bnode002:231894] Signal code:  (-6)
+[bnode002:231893] *** Process received signal ***
+[bnode002:231893] Signal: Aborted (6)
+[bnode002:231893] Signal code:  (-6)
+[bnode002:231893] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x14a5d1df4520]
+[bnode002:231893] [ 1] /work/NBB/miyauchi/try-chfs/chfs-zpoline/build/lib/libzpoline.so(____asm_impl+0x1d)[0x14a5d244ff3d]
+[bnode002:231893] [ 2] /work/NBB/miyauchi/try-chfs/chfs-zpoline/build/lib/libzpoline.so(____asm_impl+0x44)[0x14a5d244ff64]
+[bnode002:231893] *** End of error message ***
+[bnode002:231894] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x1469d5d58520]
+[bnode002:231894] [ 1] /work/NBB/miyauchi/try-chfs/chfs-zpoline/build/lib/libzpoline.so(____asm_impl+0x1d)[0x1469d63b3f3d]
+[bnode002:231894] [ 2] /work/NBB/miyauchi/try-chfs/chfs-zpoline/build/lib/libzpoline.so(____asm_impl+0x44)[0x1469d63b3f64]
+[bnode002:231894] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node bnode002 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+[bnode002:232773] Warning: could not find environment variable "CHFS_BUF_SIZE"
+[bnode002:232773] MCW rank 0 bound to socket 0[core 0[hwt 0]]: [B/././././././././././././././././././././././././././././././././././././././././././././././.]
+[bnode002:232773] MCW rank 1 bound to socket 0[core 1[hwt 0]]: [./B/./././././././././././././././././././././././././././././././././././././././././././././.]
+POSIX couldn't call statvfs: No such file or directory
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
+with errorcode -1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+
+============================================================
+Request ID:             450369.nqsv
+Request Name:           chfs-zpoline-same-node.sh
+Queue:                  gpu@nqsv
+Number of Jobs:         1
+User Name:              miyauchi
+Group Name:             NBB
+Created Request Time:   Fri Nov  8 16:28:04 2024
+Started Request Time:   Fri Nov  8 16:28:36 2024
+Ended Request Time:     Fri Nov  8 16:44:17 2024
+Resources Information:
+  Elapse:               945S
+  Remaining Elapse:     855S
+============================================================
