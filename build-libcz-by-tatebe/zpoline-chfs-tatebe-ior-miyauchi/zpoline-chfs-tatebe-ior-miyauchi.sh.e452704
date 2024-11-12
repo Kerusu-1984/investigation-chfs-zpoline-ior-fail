@@ -1,0 +1,60 @@
+
+%NQSV(INFO): ------- Output from job:0000 -------
+Loading openmpi/4.1.6/gcc11.4.0-cuda12.3.2
+  Loading requirement: cuda/12.3.2 ucx/1.15.0/cuda12.3.2
+POSIX couldn't call statvfs: No such file or directory
+
+============================================================
+Request ID:             452704.nqsv
+Request Name:           zpoline-chfs-tatebe-ior-miyauchi.sh
+Queue:                  gpu@nqsv
+Number of Jobs:         11
+User Name:              miyauchi
+Group Name:             NBB
+Created Request Time:   Wed Nov 13 00:21:55 2024
+Started Request Time:   Wed Nov 13 00:22:42 2024
+Ended Request Time:     Wed Nov 13 00:23:59 2024
+Resources Information:
+  Elapse:               81S
+  Remaining Elapse:     3519S
+============================================================
+
+%NQSV(INFO): ------- Output from job:0001 -------
+Loading openmpi/4.1.6/gcc11.4.0-cuda12.3.2
+  Loading requirement: cuda/12.3.2 ucx/1.15.0/cuda12.3.2
+
+%NQSV(INFO): ------- Output from job:0002 -------
+Loading openmpi/4.1.6/gcc11.4.0-cuda12.3.2
+  Loading requirement: cuda/12.3.2 ucx/1.15.0/cuda12.3.2
+
+%NQSV(INFO): ------- Output from job:0003 -------
+Loading openmpi/4.1.6/gcc11.4.0-cuda12.3.2
+  Loading requirement: cuda/12.3.2 ucx/1.15.0/cuda12.3.2
+
+%NQSV(INFO): ------- Output from job:0004 -------
+Loading openmpi/4.1.6/gcc11.4.0-cuda12.3.2
+  Loading requirement: cuda/12.3.2 ucx/1.15.0/cuda12.3.2
+
+%NQSV(INFO): ------- Output from job:0005 -------
+Loading openmpi/4.1.6/gcc11.4.0-cuda12.3.2
+  Loading requirement: cuda/12.3.2 ucx/1.15.0/cuda12.3.2
+
+%NQSV(INFO): ------- Output from job:0006 -------
+Loading openmpi/4.1.6/gcc11.4.0-cuda12.3.2
+  Loading requirement: cuda/12.3.2 ucx/1.15.0/cuda12.3.2
+
+%NQSV(INFO): ------- Output from job:0007 -------
+Loading openmpi/4.1.6/gcc11.4.0-cuda12.3.2
+  Loading requirement: cuda/12.3.2 ucx/1.15.0/cuda12.3.2
+
+%NQSV(INFO): ------- Output from job:0008 -------
+Loading openmpi/4.1.6/gcc11.4.0-cuda12.3.2
+  Loading requirement: cuda/12.3.2 ucx/1.15.0/cuda12.3.2
+
+%NQSV(INFO): ------- Output from job:0009 -------
+Loading openmpi/4.1.6/gcc11.4.0-cuda12.3.2
+  Loading requirement: cuda/12.3.2 ucx/1.15.0/cuda12.3.2
+
+%NQSV(INFO): ------- Output from job:0010 -------
+Loading openmpi/4.1.6/gcc11.4.0-cuda12.3.2
+  Loading requirement: cuda/12.3.2 ucx/1.15.0/cuda12.3.2
